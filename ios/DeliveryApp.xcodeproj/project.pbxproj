@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* DeliveryAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DeliveryAppTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8E509A332BAE059E006BD05A /* AnimatedRegion.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A032BAE059E006BD05A /* AnimatedRegion.js */; };
+		8E509A342BAE059E006BD05A /* decorateMapComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A052BAE059E006BD05A /* decorateMapComponent.js */; };
+		8E509A352BAE059E006BD05A /* Geojson.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A072BAE059E006BD05A /* Geojson.js */; };
+		8E509A362BAE059E006BD05A /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A092BAE059E006BD05A /* index.js */; };
+		8E509A372BAE059E006BD05A /* MapCallout.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A0B2BAE059E006BD05A /* MapCallout.js */; };
+		8E509A382BAE059E006BD05A /* MapCalloutSubview.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A0D2BAE059E006BD05A /* MapCalloutSubview.js */; };
+		8E509A392BAE059E006BD05A /* MapCircle.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A0F2BAE059E006BD05A /* MapCircle.js */; };
+		8E509A3A2BAE059E006BD05A /* MapHeatmap.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A112BAE059E006BD05A /* MapHeatmap.js */; };
+		8E509A3B2BAE059E006BD05A /* MapLocalTile.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A132BAE059E006BD05A /* MapLocalTile.js */; };
+		8E509A3C2BAE059E006BD05A /* MapMarker.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A152BAE059E006BD05A /* MapMarker.js */; };
+		8E509A3D2BAE059E006BD05A /* MapMarkerNativeComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A172BAE059E006BD05A /* MapMarkerNativeComponent.js */; };
+		8E509A3E2BAE059E006BD05A /* MapOverlay.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A192BAE059E006BD05A /* MapOverlay.js */; };
+		8E509A3F2BAE059E006BD05A /* MapPolygon.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A1B2BAE059E006BD05A /* MapPolygon.js */; };
+		8E509A402BAE059E006BD05A /* MapPolygon.types.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A1D2BAE059E006BD05A /* MapPolygon.types.js */; };
+		8E509A412BAE059E006BD05A /* MapPolyline.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A1F2BAE059E006BD05A /* MapPolyline.js */; };
+		8E509A422BAE059E006BD05A /* MapUrlTile.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A212BAE059E006BD05A /* MapUrlTile.js */; };
+		8E509A432BAE059E006BD05A /* MapView.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A232BAE059E006BD05A /* MapView.js */; };
+		8E509A442BAE059E006BD05A /* MapView.types.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A252BAE059E006BD05A /* MapView.types.js */; };
+		8E509A452BAE059E006BD05A /* MapView.web.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A272BAE059E006BD05A /* MapView.web.js */; };
+		8E509A462BAE059E006BD05A /* MapViewNativeComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A292BAE059E006BD05A /* MapViewNativeComponent.js */; };
+		8E509A472BAE059E006BD05A /* MapWMSTile.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A2B2BAE059E006BD05A /* MapWMSTile.js */; };
+		8E509A482BAE059E006BD05A /* ProviderConstants.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A2D2BAE059E006BD05A /* ProviderConstants.js */; };
+		8E509A492BAE059E006BD05A /* sharedTypes.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A2F2BAE059E006BD05A /* sharedTypes.js */; };
+		8E509A4A2BAE059E006BD05A /* sharedTypesInternal.js in Resources */ = {isa = PBXBuildFile; fileRef = 8E509A312BAE059E006BD05A /* sharedTypesInternal.js */; };
+		A800C11F18F4C82CEDF00D60 /* libPods-DeliveryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE16160F96AC5EA9FF8F405 /* libPods-DeliveryApp.a */; };
+		B55633906317245557C2F404 /* libPods-DeliveryApp-DeliveryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A93700532D37996E5AA488 /* libPods-DeliveryApp-DeliveryAppTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = DeliveryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* DeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* DeliveryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeliveryAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* DeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DeliveryApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DeliveryApp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DeliveryApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DeliveryApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DeliveryApp/main.m; sourceTree = "<group>"; };
+		50D264E9CF354613C95CEC87 /* Pods-DeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
+		5AE16160F96AC5EA9FF8F405 /* libPods-DeliveryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeliveryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A93700532D37996E5AA488 /* libPods-DeliveryApp-DeliveryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeliveryApp-DeliveryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DeliveryApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB9C086244D483E50C076B3 /* Pods-DeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8E509A022BAE059E006BD05A /* AnimatedRegion.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = AnimatedRegion.d.ts; sourceTree = "<group>"; };
+		8E509A032BAE059E006BD05A /* AnimatedRegion.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AnimatedRegion.js; sourceTree = "<group>"; };
+		8E509A042BAE059E006BD05A /* decorateMapComponent.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = decorateMapComponent.d.ts; sourceTree = "<group>"; };
+		8E509A052BAE059E006BD05A /* decorateMapComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = decorateMapComponent.js; sourceTree = "<group>"; };
+		8E509A062BAE059E006BD05A /* Geojson.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = Geojson.d.ts; sourceTree = "<group>"; };
+		8E509A072BAE059E006BD05A /* Geojson.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Geojson.js; sourceTree = "<group>"; };
+		8E509A082BAE059E006BD05A /* index.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = index.d.ts; sourceTree = "<group>"; };
+		8E509A092BAE059E006BD05A /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		8E509A0A2BAE059E006BD05A /* MapCallout.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapCallout.d.ts; sourceTree = "<group>"; };
+		8E509A0B2BAE059E006BD05A /* MapCallout.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapCallout.js; sourceTree = "<group>"; };
+		8E509A0C2BAE059E006BD05A /* MapCalloutSubview.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapCalloutSubview.d.ts; sourceTree = "<group>"; };
+		8E509A0D2BAE059E006BD05A /* MapCalloutSubview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapCalloutSubview.js; sourceTree = "<group>"; };
+		8E509A0E2BAE059E006BD05A /* MapCircle.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapCircle.d.ts; sourceTree = "<group>"; };
+		8E509A0F2BAE059E006BD05A /* MapCircle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapCircle.js; sourceTree = "<group>"; };
+		8E509A102BAE059E006BD05A /* MapHeatmap.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapHeatmap.d.ts; sourceTree = "<group>"; };
+		8E509A112BAE059E006BD05A /* MapHeatmap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapHeatmap.js; sourceTree = "<group>"; };
+		8E509A122BAE059E006BD05A /* MapLocalTile.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapLocalTile.d.ts; sourceTree = "<group>"; };
+		8E509A132BAE059E006BD05A /* MapLocalTile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapLocalTile.js; sourceTree = "<group>"; };
+		8E509A142BAE059E006BD05A /* MapMarker.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapMarker.d.ts; sourceTree = "<group>"; };
+		8E509A152BAE059E006BD05A /* MapMarker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapMarker.js; sourceTree = "<group>"; };
+		8E509A162BAE059E006BD05A /* MapMarkerNativeComponent.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapMarkerNativeComponent.d.ts; sourceTree = "<group>"; };
+		8E509A172BAE059E006BD05A /* MapMarkerNativeComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapMarkerNativeComponent.js; sourceTree = "<group>"; };
+		8E509A182BAE059E006BD05A /* MapOverlay.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapOverlay.d.ts; sourceTree = "<group>"; };
+		8E509A192BAE059E006BD05A /* MapOverlay.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapOverlay.js; sourceTree = "<group>"; };
+		8E509A1A2BAE059E006BD05A /* MapPolygon.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapPolygon.d.ts; sourceTree = "<group>"; };
+		8E509A1B2BAE059E006BD05A /* MapPolygon.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapPolygon.js; sourceTree = "<group>"; };
+		8E509A1C2BAE059E006BD05A /* MapPolygon.types.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapPolygon.types.d.ts; sourceTree = "<group>"; };
+		8E509A1D2BAE059E006BD05A /* MapPolygon.types.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapPolygon.types.js; sourceTree = "<group>"; };
+		8E509A1E2BAE059E006BD05A /* MapPolyline.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapPolyline.d.ts; sourceTree = "<group>"; };
+		8E509A1F2BAE059E006BD05A /* MapPolyline.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapPolyline.js; sourceTree = "<group>"; };
+		8E509A202BAE059E006BD05A /* MapUrlTile.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapUrlTile.d.ts; sourceTree = "<group>"; };
+		8E509A212BAE059E006BD05A /* MapUrlTile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapUrlTile.js; sourceTree = "<group>"; };
+		8E509A222BAE059E006BD05A /* MapView.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapView.d.ts; sourceTree = "<group>"; };
+		8E509A232BAE059E006BD05A /* MapView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapView.js; sourceTree = "<group>"; };
+		8E509A242BAE059E006BD05A /* MapView.types.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapView.types.d.ts; sourceTree = "<group>"; };
+		8E509A252BAE059E006BD05A /* MapView.types.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapView.types.js; sourceTree = "<group>"; };
+		8E509A262BAE059E006BD05A /* MapView.web.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapView.web.d.ts; sourceTree = "<group>"; };
+		8E509A272BAE059E006BD05A /* MapView.web.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapView.web.js; sourceTree = "<group>"; };
+		8E509A282BAE059E006BD05A /* MapViewNativeComponent.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapViewNativeComponent.d.ts; sourceTree = "<group>"; };
+		8E509A292BAE059E006BD05A /* MapViewNativeComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapViewNativeComponent.js; sourceTree = "<group>"; };
+		8E509A2A2BAE059E006BD05A /* MapWMSTile.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = MapWMSTile.d.ts; sourceTree = "<group>"; };
+		8E509A2B2BAE059E006BD05A /* MapWMSTile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MapWMSTile.js; sourceTree = "<group>"; };
+		8E509A2C2BAE059E006BD05A /* ProviderConstants.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = ProviderConstants.d.ts; sourceTree = "<group>"; };
+		8E509A2D2BAE059E006BD05A /* ProviderConstants.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ProviderConstants.js; sourceTree = "<group>"; };
+		8E509A2E2BAE059E006BD05A /* sharedTypes.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = sharedTypes.d.ts; sourceTree = "<group>"; };
+		8E509A2F2BAE059E006BD05A /* sharedTypes.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sharedTypes.js; sourceTree = "<group>"; };
+		8E509A302BAE059E006BD05A /* sharedTypesInternal.d.ts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.typescript; path = sharedTypesInternal.d.ts; sourceTree = "<group>"; };
+		8E509A312BAE059E006BD05A /* sharedTypesInternal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sharedTypesInternal.js; sourceTree = "<group>"; };
+		ABEE934B18939A8599D2DDE3 /* Pods-DeliveryApp-DeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliveryApp-DeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B40153975650AAABF9524F54 /* Pods-DeliveryApp-DeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeliveryApp-DeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55633906317245557C2F404 /* libPods-DeliveryApp-DeliveryAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A800C11F18F4C82CEDF00D60 /* libPods-DeliveryApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* DeliveryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* DeliveryAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = DeliveryAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* DeliveryApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = DeliveryApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5AE16160F96AC5EA9FF8F405 /* libPods-DeliveryApp.a */,
+				69A93700532D37996E5AA488 /* libPods-DeliveryApp-DeliveryAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8E509A322BAE059E006BD05A /* lib */,
+				8E509A012BADF51A006BD05A /* AirMaps */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* DeliveryApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* DeliveryAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* DeliveryApp.app */,
+				00E356EE1AD99517003FC87E /* DeliveryAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E509A002BADF51A006BD05A /* Callout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Callout;
+			sourceTree = "<group>";
+		};
+		8E509A012BADF51A006BD05A /* AirMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8E509A002BADF51A006BD05A /* Callout */,
+			);
+			name = AirMaps;
+			path = "../node_modules/react-native-maps/ios/AirMaps";
+			sourceTree = "<group>";
+		};
+		8E509A322BAE059E006BD05A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8E509A022BAE059E006BD05A /* AnimatedRegion.d.ts */,
+				8E509A032BAE059E006BD05A /* AnimatedRegion.js */,
+				8E509A042BAE059E006BD05A /* decorateMapComponent.d.ts */,
+				8E509A052BAE059E006BD05A /* decorateMapComponent.js */,
+				8E509A062BAE059E006BD05A /* Geojson.d.ts */,
+				8E509A072BAE059E006BD05A /* Geojson.js */,
+				8E509A082BAE059E006BD05A /* index.d.ts */,
+				8E509A092BAE059E006BD05A /* index.js */,
+				8E509A0A2BAE059E006BD05A /* MapCallout.d.ts */,
+				8E509A0B2BAE059E006BD05A /* MapCallout.js */,
+				8E509A0C2BAE059E006BD05A /* MapCalloutSubview.d.ts */,
+				8E509A0D2BAE059E006BD05A /* MapCalloutSubview.js */,
+				8E509A0E2BAE059E006BD05A /* MapCircle.d.ts */,
+				8E509A0F2BAE059E006BD05A /* MapCircle.js */,
+				8E509A102BAE059E006BD05A /* MapHeatmap.d.ts */,
+				8E509A112BAE059E006BD05A /* MapHeatmap.js */,
+				8E509A122BAE059E006BD05A /* MapLocalTile.d.ts */,
+				8E509A132BAE059E006BD05A /* MapLocalTile.js */,
+				8E509A142BAE059E006BD05A /* MapMarker.d.ts */,
+				8E509A152BAE059E006BD05A /* MapMarker.js */,
+				8E509A162BAE059E006BD05A /* MapMarkerNativeComponent.d.ts */,
+				8E509A172BAE059E006BD05A /* MapMarkerNativeComponent.js */,
+				8E509A182BAE059E006BD05A /* MapOverlay.d.ts */,
+				8E509A192BAE059E006BD05A /* MapOverlay.js */,
+				8E509A1A2BAE059E006BD05A /* MapPolygon.d.ts */,
+				8E509A1B2BAE059E006BD05A /* MapPolygon.js */,
+				8E509A1C2BAE059E006BD05A /* MapPolygon.types.d.ts */,
+				8E509A1D2BAE059E006BD05A /* MapPolygon.types.js */,
+				8E509A1E2BAE059E006BD05A /* MapPolyline.d.ts */,
+				8E509A1F2BAE059E006BD05A /* MapPolyline.js */,
+				8E509A202BAE059E006BD05A /* MapUrlTile.d.ts */,
+				8E509A212BAE059E006BD05A /* MapUrlTile.js */,
+				8E509A222BAE059E006BD05A /* MapView.d.ts */,
+				8E509A232BAE059E006BD05A /* MapView.js */,
+				8E509A242BAE059E006BD05A /* MapView.types.d.ts */,
+				8E509A252BAE059E006BD05A /* MapView.types.js */,
+				8E509A262BAE059E006BD05A /* MapView.web.d.ts */,
+				8E509A272BAE059E006BD05A /* MapView.web.js */,
+				8E509A282BAE059E006BD05A /* MapViewNativeComponent.d.ts */,
+				8E509A292BAE059E006BD05A /* MapViewNativeComponent.js */,
+				8E509A2A2BAE059E006BD05A /* MapWMSTile.d.ts */,
+				8E509A2B2BAE059E006BD05A /* MapWMSTile.js */,
+				8E509A2C2BAE059E006BD05A /* ProviderConstants.d.ts */,
+				8E509A2D2BAE059E006BD05A /* ProviderConstants.js */,
+				8E509A2E2BAE059E006BD05A /* sharedTypes.d.ts */,
+				8E509A2F2BAE059E006BD05A /* sharedTypes.js */,
+				8E509A302BAE059E006BD05A /* sharedTypesInternal.d.ts */,
+				8E509A312BAE059E006BD05A /* sharedTypesInternal.js */,
+			);
+			name = lib;
+			path = "../node_modules/react-native-maps/lib";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB9C086244D483E50C076B3 /* Pods-DeliveryApp.debug.xcconfig */,
+				50D264E9CF354613C95CEC87 /* Pods-DeliveryApp.release.xcconfig */,
+				B40153975650AAABF9524F54 /* Pods-DeliveryApp-DeliveryAppTests.debug.xcconfig */,
+				ABEE934B18939A8599D2DDE3 /* Pods-DeliveryApp-DeliveryAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* DeliveryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DeliveryAppTests" */;
+			buildPhases = (
+				63467B72BCCFD28B504141CD /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				610E203204EAF16F84EE8019 /* [CP] Embed Pods Frameworks */,
+				6FCCEE25B654BEED896E2593 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = DeliveryAppTests;
+			productName = DeliveryAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* DeliveryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* DeliveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DeliveryApp" */;
+			buildPhases = (
+				3805ECCDCD84A59DC2C90109 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				C59F61F1A95D0EA2E36598EF /* [CP] Embed Pods Frameworks */,
+				50DC92FE0644674430D885DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeliveryApp;
+			productName = DeliveryApp;
+			productReference = 13B07F961A680F5B00A75B9A /* DeliveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DeliveryApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* DeliveryApp */,
+				00E356ED1AD99517003FC87E /* DeliveryAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E509A3A2BAE059E006BD05A /* MapHeatmap.js in Resources */,
+				8E509A472BAE059E006BD05A /* MapWMSTile.js in Resources */,
+				8E509A352BAE059E006BD05A /* Geojson.js in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				8E509A442BAE059E006BD05A /* MapView.types.js in Resources */,
+				8E509A3B2BAE059E006BD05A /* MapLocalTile.js in Resources */,
+				8E509A412BAE059E006BD05A /* MapPolyline.js in Resources */,
+				8E509A482BAE059E006BD05A /* ProviderConstants.js in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8E509A462BAE059E006BD05A /* MapViewNativeComponent.js in Resources */,
+				8E509A432BAE059E006BD05A /* MapView.js in Resources */,
+				8E509A372BAE059E006BD05A /* MapCallout.js in Resources */,
+				8E509A422BAE059E006BD05A /* MapUrlTile.js in Resources */,
+				8E509A362BAE059E006BD05A /* index.js in Resources */,
+				8E509A402BAE059E006BD05A /* MapPolygon.types.js in Resources */,
+				8E509A3C2BAE059E006BD05A /* MapMarker.js in Resources */,
+				8E509A342BAE059E006BD05A /* decorateMapComponent.js in Resources */,
+				8E509A3D2BAE059E006BD05A /* MapMarkerNativeComponent.js in Resources */,
+				8E509A3E2BAE059E006BD05A /* MapOverlay.js in Resources */,
+				8E509A452BAE059E006BD05A /* MapView.web.js in Resources */,
+				8E509A4A2BAE059E006BD05A /* sharedTypesInternal.js in Resources */,
+				8E509A382BAE059E006BD05A /* MapCalloutSubview.js in Resources */,
+				8E509A332BAE059E006BD05A /* AnimatedRegion.js in Resources */,
+				8E509A492BAE059E006BD05A /* sharedTypes.js in Resources */,
+				8E509A392BAE059E006BD05A /* MapCircle.js in Resources */,
+				8E509A3F2BAE059E006BD05A /* MapPolygon.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		3805ECCDCD84A59DC2C90109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeliveryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50DC92FE0644674430D885DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		610E203204EAF16F84EE8019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63467B72BCCFD28B504141CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeliveryApp-DeliveryAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FCCEE25B654BEED896E2593 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp-DeliveryAppTests/Pods-DeliveryApp-DeliveryAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59F61F1A95D0EA2E36598EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeliveryApp/Pods-DeliveryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* DeliveryAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* DeliveryApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40153975650AAABF9524F54 /* Pods-DeliveryApp-DeliveryAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeliveryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliveryApp.app/DeliveryApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEE934B18939A8599D2DDE3 /* Pods-DeliveryApp-DeliveryAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = DeliveryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeliveryApp.app/DeliveryApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB9C086244D483E50C076B3 /* Pods-DeliveryApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = DeliveryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = DeliveryApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D264E9CF354613C95CEC87 /* Pods-DeliveryApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = DeliveryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = DeliveryApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DeliveryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
